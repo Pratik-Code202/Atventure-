@@ -1,0 +1,55 @@
+@charset "utf-8";
+.formrow {
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    margin: 0.4em 0;
+    width: 25em;
+    padding: 0.7em 10px;
+}
+
+input[type=text] {
+    margin-top: 2em;
+}
+
+::placeholder {
+    font-family: sans-serif;
+}
+
+#login {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+}
+
+#loginbtn {
+    border-radius: 10%;
+    background-color: #43BCCD;
+    margin: 0.5em 0;
+    padding: 8px;
+}
+
+h5 {
+    text-align: center;
+}
+
+form {
+    color: gold;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.527);
+}
+
+.myDIV {
+    color: white;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        box-shadow: 10px 20px 30px yellow;
+    }
+}
+
+body {
+    background-color: hsla(221, 100%, 34%, 1); 
+}

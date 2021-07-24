@@ -1,0 +1,88 @@
+/*background image*/
+
+#headIndex {
+    background: url("school.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/*sizes the image*/
+
+body, html {
+    height: 100%;
+}
+
+/*fixes position of card in middle of page*/
+
+.card {
+    width: 20%;
+    position: absolute;
+    top: 40%;
+    left: 78%;
+}
+
+/*enables enroll button*/
+
+#enrol {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5em;
+}
+
+#login {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0.8em;
+}
+
+
+body {
+    background-color: hsla(221, 100%, 34%, 1);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#myDIV {
+    color: white;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        box-shadow: 10px 20px 30px yellow;
+    }
+}
+
+h2{
+color: gold;
+text-shadow: 2px 2px 5px white;
+}
+
+.card p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h5 {
+    color:hsla(221, 100%, 34%, 1);  
+}
+
